@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;align-items: center;
+    padding: 10px 0 10px 0;
+}
+body{
+    background-color:cadetblue;
+}
+.game{
+    height:60vmin;
+    width: 60vmin;
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    background-color: azure;
+    color: darkred;
+}
+.reset{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    border:none ;
+}
+
+#new-btn{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    border:none ;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+}
+.hide{
+    display: none;
+}
+
+h3{
+    font-size: 4vmin;
+    margin: 10px 0 10px 0;
+    text-decoration: underline;
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:3vmin;
+    width: 57vmin;
+}
+.score-X{
+    display: flex;
+}
+.score-O{
+    display: flex;
+}
